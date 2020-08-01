@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/cinema_booking/static/css/main.24c6b43e.chunk.css",
-    "main.js": "/cinema_booking/static/js/main.c8f3a013.chunk.js",
-    "main.js.map": "/cinema_booking/static/js/main.c8f3a013.chunk.js.map",
+    "main.css": "/cinema_booking/static/css/main.91011afd.chunk.css",
+    "main.js": "/cinema_booking/static/js/main.1176f735.chunk.js",
+    "main.js.map": "/cinema_booking/static/js/main.1176f735.chunk.js.map",
     "runtime-main.js": "/cinema_booking/static/js/runtime-main.7cde7d57.js",
     "runtime-main.js.map": "/cinema_booking/static/js/runtime-main.7cde7d57.js.map",
     "static/js/2.9e879f00.chunk.js": "/cinema_booking/static/js/2.9e879f00.chunk.js",
     "static/js/2.9e879f00.chunk.js.map": "/cinema_booking/static/js/2.9e879f00.chunk.js.map",
     "index.html": "/cinema_booking/index.html",
-    "precache-manifest.eafdc32be1af731ebf32ed336e6429a5.js": "/cinema_booking/precache-manifest.eafdc32be1af731ebf32ed336e6429a5.js",
+    "precache-manifest.19bf9836254c7ef96877882ec0e9387d.js": "/cinema_booking/precache-manifest.19bf9836254c7ef96877882ec0e9387d.js",
     "service-worker.js": "/cinema_booking/service-worker.js",
-    "static/css/main.24c6b43e.chunk.css.map": "/cinema_booking/static/css/main.24c6b43e.chunk.css.map",
-    "static/js/2.9e879f00.chunk.js.LICENSE.txt": "/cinema_booking/static/js/2.9e879f00.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/cinema_booking/static/media/david-troeger-iLeIDlfNgpo-unsplash.994b88db.jpg"
+    "static/css/main.91011afd.chunk.css.map": "/cinema_booking/static/css/main.91011afd.chunk.css.map",
+    "static/js/2.9e879f00.chunk.js.LICENSE.txt": "/cinema_booking/static/js/2.9e879f00.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7cde7d57.js",
     "static/js/2.9e879f00.chunk.js",
-    "static/css/main.24c6b43e.chunk.css",
-    "static/js/main.c8f3a013.chunk.js"
+    "static/css/main.91011afd.chunk.css",
+    "static/js/main.1176f735.chunk.js"
   ]
 }
