@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/cinema_booking/static/css/main.5f361e03.chunk.css",
-    "main.js": "/cinema_booking/static/js/main.904591b6.chunk.js",
-    "main.js.map": "/cinema_booking/static/js/main.904591b6.chunk.js.map",
+    "main.css": "/cinema_booking/static/css/main.24c6b43e.chunk.css",
+    "main.js": "/cinema_booking/static/js/main.c8f3a013.chunk.js",
+    "main.js.map": "/cinema_booking/static/js/main.c8f3a013.chunk.js.map",
     "runtime-main.js": "/cinema_booking/static/js/runtime-main.7cde7d57.js",
     "runtime-main.js.map": "/cinema_booking/static/js/runtime-main.7cde7d57.js.map",
-    "static/js/2.abb6c2fd.chunk.js": "/cinema_booking/static/js/2.abb6c2fd.chunk.js",
-    "static/js/2.abb6c2fd.chunk.js.map": "/cinema_booking/static/js/2.abb6c2fd.chunk.js.map",
+    "static/js/2.9e879f00.chunk.js": "/cinema_booking/static/js/2.9e879f00.chunk.js",
+    "static/js/2.9e879f00.chunk.js.map": "/cinema_booking/static/js/2.9e879f00.chunk.js.map",
     "index.html": "/cinema_booking/index.html",
-    "precache-manifest.ce4a403f650ad0872d8fd8801fdaf273.js": "/cinema_booking/precache-manifest.ce4a403f650ad0872d8fd8801fdaf273.js",
+    "precache-manifest.eafdc32be1af731ebf32ed336e6429a5.js": "/cinema_booking/precache-manifest.eafdc32be1af731ebf32ed336e6429a5.js",
     "service-worker.js": "/cinema_booking/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/cinema_booking/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.abb6c2fd.chunk.js.LICENSE.txt": "/cinema_booking/static/js/2.abb6c2fd.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/cinema_booking/static/media/logo.5d5d9eef.svg"
+    "static/css/main.24c6b43e.chunk.css.map": "/cinema_booking/static/css/main.24c6b43e.chunk.css.map",
+    "static/js/2.9e879f00.chunk.js.LICENSE.txt": "/cinema_booking/static/js/2.9e879f00.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cinema_booking/static/media/david-troeger-iLeIDlfNgpo-unsplash.994b88db.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7cde7d57.js",
-    "static/js/2.abb6c2fd.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.904591b6.chunk.js"
+    "static/js/2.9e879f00.chunk.js",
+    "static/css/main.24c6b43e.chunk.css",
+    "static/js/main.c8f3a013.chunk.js"
   ]
 }
