@@ -1,0 +1,216 @@
+.seats {
+    background-color:#444;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items:center;
+    background: rgba(72, 72, 78, 0);
+
+    h1 {
+      font-size: 22px;
+      color: #ffffff;
+      margin-bottom: 1em;
+      width: inherit;
+      text-align: center;
+    }
+
+    .seat  {
+      width: 10px;
+      height: 10px;
+      margin: 2px;
+      font-size: 12px;
+      border-radius: 1px;
+      cursor: pointer;
+      background: rgba(72, 72, 78, 0.5);
+      background-color:#39393d;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      width: inherit;
+      justify-content: space-between;
+      margin-top: 10px;
+      align-items:center;
+      font-weight: bold;
+      color: #fff;
+      letter-spacing: 0.8px;
+    
+        @mixin form_seat {
+          content: '';
+          width: 10px;
+          height: 10px;
+          display: inline-block;
+          margin: 0 5px 0 0;
+          border-radius: 2px;
+          margin:0 2px;
+          color: #fff;
+          margin-right:6px;
+    
+        }
+        .legend__item--free::before {
+          background: rgba(72, 72, 78, 0.5);
+          @include form_seat;
+        }
+  
+        .legend__item--reserved::before {
+          background: #de6363;
+          @include form_seat;
+        }
+    
+        .legend__item--selected::before {
+          background: #21c252;
+          @include form_seat;
+        }
+    }
+}
+
+/*==================================================
+    media queries
+==================================================*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .seats {
+    h1 {
+      font-size: 30px;
+      margin-bottom: 1em;
+      margin-top: 1.5em;
+    }
+  }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .seats {
+    width: 420px;
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 1em;
+      margin-top: 1.5em;
+    }
+
+    ul {
+      letter-spacing: 1px;
+      font-size: 20px;
+      margin-top: 1em;
+    
+        @mixin form_seat {
+          content: '';
+          width: 15px;
+          height: 15px;
+        }
+        .legend__item--free::before {
+          @include form_seat;
+        }
+    
+        .legend__item--reserved::before {
+          @include form_seat;
+        }
+    
+        .legend__item--selected::before {
+          @include form_seat;
+        }
+    }
+    .seat  {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .seats {
+    width: 420px;
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 1em;
+      margin-top: 1.5em;
+    }
+
+    ul {
+      letter-spacing: 1px;
+      font-size: 20px;
+      margin-top: 1em;
+    
+        @mixin form_seat {
+          content: '';
+          width: 15px;
+          height: 15px;
+        }
+        .legend__item--free::before {
+          @include form_seat;
+        }
+    
+        .legend__item--reserved::before {
+          @include form_seat;
+        }
+    
+        .legend__item--selected::before {
+          @include form_seat;
+        }
+    }
+    .seat  {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1499.98px) {
+  .seats {
+    h1 {
+      font-size: 22px;
+      margin-bottom: 0.5em;
+      margin-top: 0em;
+    }
+
+    ul {
+      margin-top: 5px;
+      margin-bottom: 0;
+    }
+  }
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1800px) {
+  .seats {
+    width: 420px;
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 1em;
+      margin-top: .3em;
+    }
+
+    ul {
+      letter-spacing: 1px;
+      font-size: 20px;
+      margin-top: 1em;
+    
+        @mixin form_seat {
+          content: '';
+          width: 15px;
+          height: 15px;
+        }
+        .legend__item--free::before {
+          @include form_seat;
+        }
+    
+        .legend__item--reserved::before {
+          @include form_seat;
+        }
+    
+        .legend__item--selected::before {
+          @include form_seat;
+        }
+    }
+    .seat  {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
